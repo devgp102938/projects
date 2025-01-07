@@ -1,0 +1,72 @@
+
+body {
+    background-color: #f0f0f5;
+    background-image:url(chicago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: none;
+    backdrop-filter: none;
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 70px;
+}
+
+.login-container {
+    width: 350px;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.signup-text {
+    margin-top: 10px;
+    color: #555;
+}
+
+.signup-text a {
+    text-decoration:none;
+    color: #4CAF50;
+}
+
+.signup-text a:hover {
+    text-decoration:underline;
+}
