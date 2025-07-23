@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(43, 8, 2);
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    border: solid 4px rgb(4, 4, 43);
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px blue;
+    padding: 12px;
+    background: transparent;
+    flex-direction: column;
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    border: 2px solid black;
+    border-radius:15px;
+    padding: 12px;
+    background-color: ghostwhite;
+    color: rgb(12, 12, 243);
+}
+.head1 ,.head2{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(238, 238, 244);;
+}
+.box1,.box2{
+    border-radius: 15px;
+    padding: 6px;
+    width: 250px;
+}
+.click{
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 100px;
+    color: rgb(12, 12, 243) ;
+    background-color;
+}
+.click:hover{
+    background-color: green;
+    color: aliceblue;
+    transition: all ease 0.5s;
+}
+.box1:focus{
+    background-color: aqua;
+    box-shadow: 2px 2px 2px blue;
+}
+.box2:focus{
+    background-color: aqua;
+    box-shadow: 2px 2px 2px blue;
+}
